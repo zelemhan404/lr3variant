@@ -3,8 +3,8 @@
 #include <locale.h>
 int main() {
 	setlocale(LC_CTYPE, "RUS");
-	int sg, ae;
-	float res, res1;
+	int sg;
+	float res;
 	printf("введите число световых лет\n");
 	scanf("%d", &sg);
 	res = K * sg;
